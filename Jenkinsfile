@@ -7,7 +7,7 @@ pipeline
     stages {
         stage('Checkout') {
             steps {
-	       git branch:'main', url:https://github.com/Faizansayani533/javahello.git
+	       git branch:'main', url:"https://github.com/Faizansayani533/javahello.git"
 	}
       }		
     stage('Docker Build') {
